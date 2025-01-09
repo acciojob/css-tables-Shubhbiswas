@@ -1,1 +1,19 @@
-/*  your css code here. If applicable */
+ttable {
+  border-collapse: collapse; /* Ensures no double borders */
+  width: 100%; /* Optional: Adjust table width */
+}
+
+td, th {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+  text-align: left; /* Optional: Align text */
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
